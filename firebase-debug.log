@@ -1,0 +1,41 @@
+[debug] [2018-04-22T20:58:36.419Z] ----------------------------------------------------------------------
+[debug] [2018-04-22T20:58:36.424Z] Command:       /usr/local/Cellar/node/8.6.0/bin/node /usr/local/bin/firebase serve
+[debug] [2018-04-22T20:58:36.424Z] CLI Version:   3.18.4
+[debug] [2018-04-22T20:58:36.424Z] Platform:      darwin
+[debug] [2018-04-22T20:58:36.424Z] Node Version:  v8.6.0
+[debug] [2018-04-22T20:58:36.425Z] Time:          Sun Apr 22 2018 13:58:36 GMT-0700 (PDT)
+[debug] [2018-04-22T20:58:36.425Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-22T20:58:36.461Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-22T20:58:36.462Z] > authorizing via signed-in user
+[debug] [2018-04-22T20:58:36.467Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-22T20:58:36.467Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/rIAAK0o8LLoagtHvEy9j0gSLpZKckK_Sf-w74VJ7MnY',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Apr 22 2018 13:58:36 GMT-0700 (PDT)
+[debug] [2018-04-22T20:58:36.693Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-22T20:58:36.709Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mva-fund-e3e8f  
+  
+ Sun Apr 22 2018 13:58:36 GMT-0700 (PDT)
+[debug] [2018-04-22T20:58:37.200Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-22T20:58:37.201Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mva-fund-e3e8f/tokens  
+  
+ Sun Apr 22 2018 13:58:37 GMT-0700 (PDT)
+[debug] [2018-04-22T20:58:37.634Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-22T20:58:37.635Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/mva-fund-e3e8f  
+  
+ Sun Apr 22 2018 13:58:37 GMT-0700 (PDT)
+[debug] [2018-04-22T20:58:37.912Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/christinamills/Documents/myProjects/MVA'...
+[info] 
+[debug] [2018-04-22T20:58:37.915Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/678784236709/clients/_:getWebAppConfig  
+  
+ Sun Apr 22 2018 13:58:37 GMT-0700 (PDT)
+[debug] [2018-04-22T20:58:38.790Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
