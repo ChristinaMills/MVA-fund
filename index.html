@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <title>MVA fund</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="public/styles/base.css">
+        <link rel="stylesheet" href="public/styles/reset.css">
+        <link rel="stylesheet" href="public/styles/main.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700|Material+Icons" rel="stylesheet">
@@ -23,28 +24,80 @@
                             <li class="tab" data-content="strategies"><a href="/strategies">STRATEGIES</a></li>
                             <li class="tab" data-content="people"><a href="/people">PEOPLE</a></li>
                             <li class="tab" data-content="contact"><a href="/contact">CONTACT</a></li>
-                            <!-- form goes here -->
                             <li class="tab" data-content="info"><a href="/info">INFO</a></li>
                         </ul>
                     </nav>
                 </div>
         </header>
+
+        <!-- IMAGE -->
         <section id="splash-image-cont">
             <div>
                 <img src="public/images/ship1.jpg" alt="ship" id="ship"/>
             </div>
         </section>
-        <section id="strategies">
-            <!-- unknown do nothing, just provide space -->
-        </section>
-        <section id="people">
-            <!-- two iamges plus description -->
-        </section>
-        <section id="contact">
-            <!-- contact form goes here -->
 
-        </section>
-        <section id="info">
+        <!-- MAIN CONTENT -->
+        <section id="main-content">
+
+        
+            <section id="about" class="content-section">
+                
+                    <div id="section-title">
+                        <h1>About MVA Funds</h1>
+                        <span> — </span>
+                    </div>
+                    
+                    <!-- change to use ::after pseudo selector? -->
+                    <p>"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+                    
+                
+            </section>
+            <section id="strategies" class="content-section">
+                <div id="section-title">
+                    <h1>Strategies </h1>
+                    <span> — </span>
+                </div>
+                    
+                    <p>
+                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+                    </p>
+            </section>
+
+            <section id="people">
+                <div id="section-title">
+                    <h1>People </h1>
+                    <span> — </span>
+                </div>                   
+                <div id="photo-box">
+                <!-- TODO descriptions -->
+                    <div>
+                        <img src="public/images/man1.jpg" alt="man 1" class="headshots">
+                    </div>
+                    <div>
+                        <img src="public/images/man2.jpg" alt="man 2" class="headshots">
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div id="section-title">
+                        <h1>Contact </h1>
+                        <span> — </span>
+                </div>
+                <!-- TODO contact form goes here -->
+
+            </section>
+            <section id="info">
+                <div id="section-title">
+                    <h1>Info </h1>
+                    <span> — </span>
+                </div>
+                <div>
+                    <p>
+
+                    </p>
+                </div>
+            </section>
 
         </section>
       </body>
