@@ -50,7 +50,7 @@ h2 {
   width: 100%;
 
   align-self: center;
-  margin: 0 0.8em 0 0;
+  margin: 0 1em 0 0;
   display: flex;
   flex-direction:row;
   justify-content: flex-end;
@@ -70,6 +70,7 @@ ul {
   display: flex;
   flex-flow: row wrap;
   list-style-type: none;
+  margin-right: 1.5em;
  }
 
 
@@ -100,4 +101,26 @@ li a:hover {
   margin-top: 5em;
   margin-right: 7em;
   margin-left: 7em;
+}
+
+#people {
+  margin-top: 5em;
+  margin-right: 7em;
+  margin-left: 7em;
+}
+
+#photos-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.photo-container {
+  max-width: 100%;
+  margin: 3em;
+}
+
+.headshots {
+  display: flex;
+  max-width: 100%;  
+  
 }
