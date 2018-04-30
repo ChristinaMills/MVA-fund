@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -8,6 +7,11 @@
         <link rel="stylesheet" href="public/styles/main.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+        <script>
+        document.querySelector("#submit-button").addEventListener("click", function(event) {
+        event.preventDefault();
+        }, false);
+</script>
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700|Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
@@ -85,20 +89,22 @@
                         <span> — </span>
                 </div>
                 <!-- TODO contact form goes here -->
-                <p>contact form goes here</p>
-                <form>
-                    <fieldset id="contact-form">
-                        <label for="name">NAME:</label>
-                        <input type="text" name="name">
-                        <label for="email">E-MAIL:</label>
-                        <input type="text" name="email">
-                        <label for="phone" >PHONE NUMBER:</label>
-                        <input type="text" name="phone">
-                        <label for="message">MESSAGE:</label>
-                        <textarea rows="4" cols="50" name="message" form="usrform">Message
-                        </textarea>
-                    </fieldset>
-                </form>
+               <div id="form-container">
+                    <form method="post" action="send_form.php" id="contact-form">
+                        <fieldset>
+                            <label for="senderName">NAME:</label>
+                            <input type="text" name="senderName">
+                            <label for="senderEmail">E-MAIL:</label>
+                            <input type="text" name="senderEmail">
+                            <!-- <label for="phone" >PHONE NUMBER:</label>
+                            <input type="text" name="phone"> -->
+                            <label for="message">MESSAGE:</label>
+                            <textarea rows="4" cols="50" name="message" form="usrform">
+                            </textarea>
+                        </fieldset>
+                        <button id="submit-button" type="submit">SUBMIT</button>
+                    </form>
+                </div>
 
             </section>
             <section id="info" class="content-section">
