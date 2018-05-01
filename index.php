@@ -1,4 +1,8 @@
 <?php
+include 'ChromePhp.php';
+ChromePhp::log('Hello console!');
+
+
 if($_POST["message"]) {
     mail("chrimills@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
 }
