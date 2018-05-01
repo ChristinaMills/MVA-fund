@@ -4,11 +4,11 @@ ChromePhp::log('Hello console!');
 
 
 if($_POST["message"]) {
+    mail("chrimills@gmail.com", "Form to email message", $_POST["message"], "From: an@email.com");
     ChromePhp::log('yar this shit got called');
-    mail("chrimills@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
 }
 else {
-    ChromePhp::log('in the else, yar.');
+    ChromePhp::log('in the else');
 }
 ?>
 <!DOCTYPE html>
