@@ -113,7 +113,7 @@ if($_POST["message"]) {
                         <button id="submit-button" type="submit">SUBMIT</button>
                     </form>
                 </div> -->
-                <form method="post" action="contact.php">
+                <form method="post" action="index.php">
                         <textarea name="message"></textarea>
                         <input type="submit">
                 </form>
