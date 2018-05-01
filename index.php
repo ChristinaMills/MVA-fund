@@ -1,16 +1,3 @@
-<?php
-include 'ChromePhp.php';
-ChromePhp::log('Hello console!');
-
-
-if($_POST["message"]) {
-    mail("chrimills@gmail.com", "Form to email message", $_POST["message"], "From: an@email.com");
-    ChromePhp::log('yar this shit got called');
-}
-else {
-    ChromePhp::log('in the else');
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -21,11 +8,10 @@ else {
         <link rel="stylesheet" href="public/styles/main.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
-        <!-- <script>
-        document.querySelector("#submit-button").addEventListener("click", function(event) {
-        event.preventDefault();
-        }, false);
-        </script> -->
+        <script src="script/validate-form.js"></script>
+        
+
+
         <script src="index.js"></script> 
 
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700|Material+Icons" rel="stylesheet">
@@ -121,10 +107,33 @@ else {
                         <button id="submit-button" type="submit">SUBMIT</button>
                     </form>
                 </div> -->
-                <form method="post" action="index.php">
-                        <textarea name="message"></textarea>
-                        <input type="submit">
-                </form>
+
+<form id="contact" action="">
+
+<label for="name" id="name_label">Name *</label>
+<label class="error" for="name" id="name_error">this field is required</label>
+<br /> <input type="text" name="name" id="name" value="" class="text-input" placeholder="How should I call you?" />
+
+
+<br />
+<label for="email" id="email_label">E-Mail *</label>
+<label class="error" for="email" id="email_error">this field is required</label>
+<label class="error" for="email" id="email_invalid_error">please insert a valid email</label>
+<br /> <input type="email" name="email" id="email" value="" class="text-input" placeholder="How can I reach you?" />
+
+
+<br />
+<label for="message">Message *</label>
+<label class="error" for="message" id="message_error">this field is required</label>
+<br /> <textarea name="message" id="message" rows="8" class="text-input" placeholder="What would you like to tell me?"></textarea>
+
+
+<br />
+<input name="submit" id="submit" value="Send me Mail!" type="submit" class="subbutton">
+
+</form>
+
+
             </section>
             <section id="info" class="content-section">
                 <div id="section-title">
