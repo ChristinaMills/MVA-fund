@@ -1,3 +1,9 @@
+<?php
+if($_POST["message"]) {
+    mail("chrimills@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -7,11 +13,13 @@
         <link rel="stylesheet" href="public/styles/main.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
-        <script>
+        <!-- <script>
         document.querySelector("#submit-button").addEventListener("click", function(event) {
         event.preventDefault();
         }, false);
-</script>
+        </script> -->
+        <script src="index.js"></script> 
+
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700|Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
@@ -21,7 +29,7 @@
             <!-- <div id="logo"><a href="/main"></a></div> -->
                 <div id="nav-container">
                     <!-- <div id="ham"><a id="showMenu" href="#">menu ham</a></div> -->
-                    <nav id="navigation"> 
+                    <nav id="navigation" class="navbar"> 
                         <ul id="menu">
                             <!-- <li class="tab" data-content="main"><a href="/main">work</a></li> -->
                             <li class="tab" data-content="about"><a href="#about">ABOUT</a></li>
@@ -89,23 +97,26 @@
                         <span> — </span>
                 </div>
                 <!-- TODO contact form goes here -->
-               <div id="form-container">
+               <!-- <div id="form-container">
                     <form method="post" action="send_form.php" id="contact-form">
                         <fieldset>
                             <label for="senderName">NAME:</label>
                             <input type="text" name="senderName">
                             <label for="senderEmail">E-MAIL:</label>
                             <input type="text" name="senderEmail">
-                            <!-- <label for="phone" >PHONE NUMBER:</label>
-                            <input type="text" name="phone"> -->
+                            <label for="phone" >PHONE NUMBER:</label>
+                            <input type="text" name="phone">
                             <label for="message">MESSAGE:</label>
                             <textarea rows="4" cols="50" name="message" form="usrform">
                             </textarea>
                         </fieldset>
                         <button id="submit-button" type="submit">SUBMIT</button>
                     </form>
-                </div>
-
+                </div> -->
+                <form method="post" action="contact.php">
+                        <textarea name="message"></textarea>
+                        <input type="submit">
+                </form>
             </section>
             <section id="info" class="content-section">
                 <div id="section-title">

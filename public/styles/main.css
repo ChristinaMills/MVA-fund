@@ -8,6 +8,9 @@
   background: transparent;
 } */
 
+body {
+  height: 12000px;
+}
 #section-title {
   font-size: 2em;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
@@ -46,7 +49,7 @@ h2 {
   font-weight: bold;
 }
 
-#navigation {
+/* #navigation {
   width: 100%;
 
   align-self: center;
@@ -56,15 +59,28 @@ h2 {
   justify-content: flex-end;
   background-color: #A9C5EE;
   border: .5em solid #A9C5EE;
+} */
+.navbar{
+  height: 100px;
+  width: 100%;
+  /* background-color: green; */
+  position: fixed;
+  
+  transition: opacity 4s;
+  opacity: 1;
 }
 
-#nav-container {
+.navbar.hide {
+  opacity: 0;
+}
+
+/* #nav-container {
   width: 100%;
 
   flex-direction: row;
   justify-content: space-between;
   justify-content: flex-end;
-}
+} */
 
 ul {
   display: flex;
