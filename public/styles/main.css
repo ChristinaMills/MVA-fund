@@ -52,7 +52,7 @@ h2 {
 .navbar {
   width: 100%;
   position: fixed;
-  /* transition: opacity 4s; */
+  transition: opacity 4s;
   opacity: 1;
   align-self: center;
   margin: 0 1em 0 0;
@@ -61,16 +61,7 @@ h2 {
   justify-content: flex-end;
 }
 
-/* .navbar{
-  
-  height: 100px;
-  width: 100%;
-  background-color: green;
-  position: fixed;
-  
-  transition: opacity 4s;
-  opacity: 1;
-} */
+
 
 .navbar.hide {
   opacity: 0;
@@ -98,7 +89,6 @@ ul {
   text-align: right;
   list-style: none;
   font-size: 1em;
-  color: black;
 }
 
 #ship {
@@ -106,12 +96,10 @@ ul {
 }
 .tab > a {
   text-decoration: none;
-  color: black;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 li a:hover {
-  /* background-color: rgba(31, 53, 108, 0.906); */
   text-decoration: underline;
 }
 
