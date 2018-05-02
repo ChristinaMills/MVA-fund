@@ -49,26 +49,28 @@ h2 {
   font-weight: bold;
 }
 
-/* #navigation {
+.navbar {
   width: 100%;
-
+  position: fixed;
+  /* transition: opacity 4s; */
+  opacity: 1;
   align-self: center;
   margin: 0 1em 0 0;
   display: flex;
   flex-direction:row;
   justify-content: flex-end;
-  background-color: #A9C5EE;
-  border: .5em solid #A9C5EE;
-} */
-.navbar{
+}
+
+/* .navbar{
+  
   height: 100px;
   width: 100%;
-  /* background-color: green; */
+  background-color: green;
   position: fixed;
   
   transition: opacity 4s;
   opacity: 1;
-}
+} */
 
 .navbar.hide {
   opacity: 0;
