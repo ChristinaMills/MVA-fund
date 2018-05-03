@@ -8,18 +8,10 @@
   background: transparent;
 } */
 
-
-
+/* NAVIGATION */
 .navbar {
   width: 100%;
   position: fixed;
-  /* transition: opacity 4s;
-  opacity: 1;
-  align-self: center;
-  margin: 0 1em 0 0;
-  display: flex;
-  flex-direction:row;
-  justify-content: flex-end; */
 }
 
 
@@ -27,16 +19,6 @@
 .navbar.hide {
   opacity: 0;
 }
-
-
-/* 
-ul {
-  display: flex;
-  flex-flow: row wrap;
-  list-style-type: none;
-  margin-right: 1.5em;
- } */
-
 
 li {
   padding-right: .5em;
@@ -67,11 +49,6 @@ li {
   width: 100%;
 }
 
-/* li > a */
-/* .tab > a {
-  text-decoration: none;
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-} */
 
 li a:hover {
   text-decoration: underline;
@@ -125,14 +102,15 @@ h2 {
 }
 
 #people {
-  margin-top: 5em;
-  margin-right: 7em;
-  margin-left: 7em;
+  margin-top: 0em;
+  margin-right: 0em;
+  margin-left: 0em;
 }
 
 #photos-box {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .photo-container {
@@ -142,8 +120,7 @@ h2 {
 
 .headshots {
   display: flex;
-  max-width: 100%;  
-  
+  max-width: 100%; 
 }
 
 /* FORM */
