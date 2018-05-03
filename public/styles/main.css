@@ -46,9 +46,9 @@ li a:hover {
 .menu a {
   margin: 10px;
   display: block;
-  color:black;
+  color: white;
   text-decoration: none;
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Raleway:300', sans-serif;
 }
 
 
@@ -65,7 +65,7 @@ li a:hover {
 
 #section-title {
   font-size: 2em;
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Raleway:300', serif ;
   font-weight: bold;
   /* margin-bottom: 1em; */
   text-align: center;
@@ -82,7 +82,7 @@ li a:hover {
 /* select only p elements in content sections */
 .content-section > p {
   font-size: 1em;
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Raleway:300', serif;
   line-height: 1.5;
   text-align: center;
 }
@@ -97,7 +97,7 @@ li a:hover {
 
 h2 {
   font-size: 1.5em;
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Raleway:300', serif;
   font-weight: bold;
 }
 
