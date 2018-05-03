@@ -85,14 +85,14 @@ li {
   font-size: 1em;
 }
 
-.main-nav {
+.menu {
   display: -webkit-flex;
   display: flex;
 }
-.main-nav li:first-child {
-  margin-right: auto;
+.menu li:first-child {
+  margin-right: 0;
 }
-.main-nav a {
+.menu a {
   margin: 10px;
   border-radius: 5px;
   background: #60B99A;
@@ -101,7 +101,7 @@ li {
 	padding: 15px;
 	text-decoration: none;
 }
-.main-nav .logo {
+.menu .logo {
   background: #4584b1;
 }
 
