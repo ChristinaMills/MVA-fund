@@ -14,6 +14,10 @@
   position: fixed;
 }
 
+#nav-logo > img {
+  height: 0em;
+  /* transition: height .2s; */
+}
 
 
 .navbar.hide {
@@ -26,6 +30,10 @@ li {
   text-align: right;
   list-style: none;
   font-size: 1em;
+}
+
+li a:hover {
+  text-decoration: underline;
 }
 
 .menu {
@@ -50,9 +58,7 @@ li {
 }
 
 
-li a:hover {
-  text-decoration: underline;
-}
+
 
 
 /* SECTIONS */
