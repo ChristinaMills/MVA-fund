@@ -169,7 +169,7 @@ textarea {
   padding: .4rem;
 }
 
-button {
+.subbutton {
   font-weight: 600;
   background-color: rgb(30, 30, 123);
   color: white;
@@ -177,8 +177,11 @@ button {
   align-self: center;
   padding: .4rem;
   font-size: 1.1rem;
-
-  /* &:hover {
-    cursor: pointer;
-  } */
+  text-align: center;
 }
+
+.subbutton:hover {
+  cursor: pointer;
+}
+
+
