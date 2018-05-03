@@ -11,14 +11,14 @@
   /* not 0, this is what makes the difference */
 }
 .menu a {
-  margin: 10px;
-  border-radius: 5px;
-  background: #60B99A;
-  color: #fff;
+  /* margin: 10px; */
+  /* border-radius: 5px; */
+  /* background: #60B99A; */
+  color: rgb(0, 0, 0);
 	display: block;
-	padding: 15px;
-	text-decoration: none;
+	/* padding: 15px; */
+	/* text-decoration: none; */
 }
 .menu .logo {
-  background: #4584b1;
+  /* background: #4584b1; */
 }
