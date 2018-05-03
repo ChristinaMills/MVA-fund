@@ -64,19 +64,15 @@ li a:hover {
 /* SECTIONS */
 
 #section-title {
-  font-size: 2em;
+  font-size: 3em;
   font-family: 'Raleway:300', serif ;
-  font-weight: bold;
+  font-weight: normal;
   /* margin-bottom: 1em; */
   text-align: center;
 }
 
 .content-section {
   margin-bottom: 6em;
-}
-
-#section-title > h1 {
-  text-align: center;
 }
 
 /* select only p elements in content sections */
@@ -88,9 +84,9 @@ li a:hover {
 }
 
 #section-title > span {
-  font-size: 2em;
+  font-size: 1.3em;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
   display: block;
 }
@@ -98,7 +94,7 @@ li a:hover {
 h2 {
   font-size: 1.5em;
   font-family: 'Raleway:300', serif;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 #main-content {
@@ -122,11 +118,43 @@ h2 {
 .photo-container {
   max-width: 100%;
   margin: 3em;
+  position: relative;
 }
 
 .headshots {
-  display: flex;
+  /* display: flex; */
   max-width: 100%; 
+  display: block;
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.photo-container:hover .image {
+  opacity: 0.9;
+}
+
+.photo-container:hover .middle {
+  opacity: 0.9;
+}
+
+.text {
+  background-color: rgb(48, 49, 50);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
 
 /* FORM */
