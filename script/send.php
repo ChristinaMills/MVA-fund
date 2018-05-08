@@ -1,4 +1,8 @@
 <?php
+
+include 'ChromePhp.php';
+ChromePhp::log('Hello console!');
+
 if( isset($_POST) ){
 
     $postData = $_POST;
