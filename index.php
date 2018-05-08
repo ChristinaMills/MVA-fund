@@ -109,22 +109,7 @@
                         <span> — </span>
                 </div>
                 <!-- TODO contact form goes here -->
-               <!-- <div id="form-container">
-                    <form method="post" action="send_form.php" id="contact-form">
-                        <fieldset>
-                            <label for="senderName">NAME:</label>
-                            <input type="text" name="senderName">
-                            <label for="senderEmail">E-MAIL:</label>
-                            <input type="text" name="senderEmail">
-                            <label for="phone" >PHONE NUMBER:</label>
-                            <input type="text" name="phone">
-                            <label for="message">MESSAGE:</label>
-                            <textarea rows="4" cols="50" name="message" form="usrform">
-                            </textarea>
-                        </fieldset>
-                        <button id="submit-button" type="submit">SUBMIT</button>
-                    </form>
-                </div> -->
+
                 <div id="form-container">
                     <form id="contact-form" action="">
 
