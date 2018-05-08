@@ -1,8 +1,4 @@
 <?php
-
-include 'ChromePhp.php';
-ChromePhp::log('Hello console!');
-
 if( isset($_POST) ){
 
     $postData = $_POST;
@@ -10,10 +6,8 @@ if( isset($_POST) ){
 
     if($mailgun) {
     echo "Great success.";
-    ChromePhp::log('yar great sucess');
   } else {
     echo "Mailgun did not connect properly.";
-    ChromePhp::log('yar mailgun did not connect properly');
   }
 }
 
