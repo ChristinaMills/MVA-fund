@@ -3,6 +3,7 @@
 .navbar {
   width: 100%;
   position: fixed;
+  z-index: 1;
 }
 
 #nav-logo > img {
@@ -57,7 +58,6 @@ li a:hover {
   font-size: 2.6em;
   font-family: 'Lora', serif;
   /* font-weight: normal; */
-  /* margin-bottom: 1em; */
   text-align: center;
   color: #DD533B;
 }
@@ -82,10 +82,6 @@ li a:hover {
   display: block;
 }
 
-/* h1 {
-  font-family: 'Raleway:300', serif;
-  font-weight: normal;
-} */
 
 #main-content {
   margin-top: 5em;
@@ -110,7 +106,7 @@ li a:hover {
   max-width: 100%;
   margin: 3em;
   position: relative;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 .headshots {
@@ -132,6 +128,7 @@ li a:hover {
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  /* z-index: 2; */
 }
 
 .photo-container:hover .image {
