@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+         <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
+
         <meta charset="utf-8">
         <title>MVA fund</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
