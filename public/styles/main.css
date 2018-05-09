@@ -10,6 +10,10 @@
   height: 0em;
   /* transition: height .2s; */
 }
+#nav-logo2 > img {
+  height: 0em;
+  /* transition: height .2s; */
+}
 
 
 .navbar.hide {
@@ -41,6 +45,7 @@ li a:hover {
   color: white;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   letter-spacing: .5px;
 }
 
@@ -60,9 +65,10 @@ li a:hover {
   font-family: 'Lora', serif;
   /* font-weight: normal; */
   text-align: center;
-  color: #DD533B;
+  /* color: #DD533B; */
+  color: rgb(69, 21, 42)
 }
-
+/* #370B1E */
 .content-section {
   margin-bottom: 6em;
 }
