@@ -2,10 +2,11 @@
 .navbar {
   width: 100%;
   position: fixed;
-  z-index: 1;
+  /* z-index: 1; */
+  margin-bottom: 2em;
 }
 
-#nav-logo > img {
+#nav-logo > a > img {
   height: 3.5em;
   /* transition: height .2s; */
 }
@@ -41,4 +42,24 @@ li a:hover {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   letter-spacing: .5px;
+}
+
+#section-title {
+  font-size: 2.6em;
+  font-family: 'Lora', serif;
+  /* font-weight: normal; */
+  text-align: center;
+  color: #DD533B;
+}
+
+#brochure-cont {
+  width: 100%;
+}
+
+#brochure-cont > img {
+  width: 100%;
+}
+
+#main-section {
+  margin-top: 3em;
 }
