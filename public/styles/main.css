@@ -7,13 +7,10 @@
 }
 
 #nav-logo > img {
-  height: 0em;
+  height: 3.5em;
   /* transition: height .2s; */
 }
-#nav-logo2 > img {
-  height: 0em;
-  /* transition: height .2s; */
-}
+
 
 
 .navbar.hide {
