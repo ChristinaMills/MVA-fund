@@ -222,7 +222,7 @@ textarea {
 }
 
 .principles-image {
-  flex-basis: auto;
+  align-self: center;
 
 }
 
@@ -244,7 +244,14 @@ textarea {
     margin: 5em 0em 0em 0em;
   }
 
+
+
+  .principles-image {
+    width: 50%;
+  }
+
 }
+
 
 /* iphone 5s */
 
