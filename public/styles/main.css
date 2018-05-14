@@ -52,6 +52,9 @@ li a:hover {
   width: 100%;
 }
 
+#splash-img-cont > div > img {
+  width: auto;
+}
 
 
 
@@ -211,4 +214,43 @@ textarea {
   cursor: pointer;
 }
 
+.principles-container {
+  display: flex;
+  direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
+.principles-image {
+  flex-basis: auto;
+
+}
+
+
+@media only screen and (max-width: 900px) {
+  .photo-container {
+    margin: 0em;
+    padding: 0.2em;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .photo-container {
+    margin: 0em;
+    padding: 0.2em;
+  }
+
+  #main-content {
+    margin: 5em 0em 0em 0em;
+  }
+
+}
+
+/* iphone 5s */
+
+/* TODO: stack photos */
+@media only screen and (max-width: 320px) {
+  body {
+    background-color: blue;
+  }
+}
