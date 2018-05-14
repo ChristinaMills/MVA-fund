@@ -26,7 +26,7 @@
         <header>
             <!-- <div id="logo"><a href="/main"></a></div> -->
                 <div id="nav-container">
-                    <!-- <div id="ham"><a id="showMenu" href="#">menu ham</a></div> -->
+                    <div id="ham"><a id="showMenu" href="#" src="./public/images/hamburger.svg"></a></div>
                     <nav id="navigation" class="navbar"> 
                         <ul class="menu">
                             <li id="nav-logo"><img id="logo-img" src="public/images/burg-logo-blur.png"></li>
