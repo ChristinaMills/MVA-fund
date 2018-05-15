@@ -1,7 +1,7 @@
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y < 700) {
+  if (y < 700 ) {
     $('.navbar').css({'background-color' : '', 'opacity': '1'});
     $('.menu a').css('color', 'white');
     $("#nav-logo > img").attr("src","public/images/burg-logo-blur.png");
@@ -20,13 +20,19 @@ $(document).scroll(function() {
 
 console.log('before icon function')
 
-// $('.navbar').click(function() {
-//   console.log('inside icon fucntion');
-//   $('#navigation').addClass('navigation-mobile');
-// })
+$(document).ready(function() {
+  $( "#navigation" ).click(function() {
+    console.log('inside icon fucntion');
+    $('#navigation').addClass('navigation-mobile');
+    $( ".menu a").addClass('menu-text-mobile')
+    $( ".menu").addClass('ul-mobile')
 
-function mobileCSS() {
-  console.log('INSIDE icon function')
+  })
+  
+});
 
-  document.getElementById('navigation').setAttribute("class", "navigation-mobile")
-}
+// function mobileCSS() {
+//   console.log('INSIDE icon function')
+//   document.getElementById('navigation').setAttribute("class", "navigation-mobile")
+// }
+

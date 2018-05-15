@@ -267,7 +267,7 @@ textarea {
 
   .menu a {
     line-height: 1.5em;
-    color: black
+    color: black !important
   }
 
 
