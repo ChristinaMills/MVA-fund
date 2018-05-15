@@ -2,23 +2,16 @@
   display: flex;
 } */
 
-.menu {
+/* .menu {
   display: -webkit-flex;
   display: flex;
 }
 .menu li:first-child {
   margin-right: auto;
-  /* not 0, this is what makes the difference */
+  not 0, this is what makes the difference
 }
 .menu a {
-  /* margin: 10px; */
-  /* border-radius: 5px; */
-  /* background: #60B99A; */
   color: rgb(0, 0, 0);
 	display: block;
-	/* padding: 15px; */
-	/* text-decoration: none; */
-}
-.menu .logo {
-  /* background: #4584b1; */
-}
+} */
+

@@ -46,9 +46,9 @@ li a:hover {
   letter-spacing: .5px;
 }
 
+/* SPLASH IMAGE */
 
-
-#ship {
+#splash-image {
   width: 100%;
 }
 
@@ -260,8 +260,22 @@ textarea {
 
   #navigation:hover ul {
     display: block;
+    margin-top: 2.5em;
+    /* background-color: rgba(255,255,255, 0.7); */
   }
 
+  .menu li:first-child {
+    display: none;
+  }
+
+  .menu a {
+    line-height: 1.5em;
+    color: black
+  }
+  
+  #navigation:hover {
+    background-color: rgba(255,255,255, 0.7);
+  }
 }
 
 
@@ -269,24 +283,10 @@ textarea {
 
 /* TODO: stack photos */
 @media only screen and (max-width: 400px) {
-  body {
-    background-color: blue;
-  }
 
   #form-container {
     width: 80%;
   }
 
-  #navigation ul {
-    display: none;
-  }
-
-  #navigation:hover ul {
-    display: block;
-  }
-
-  .menu li:first-child {
-    display: none;
-  }
 }
 
