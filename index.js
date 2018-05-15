@@ -26,6 +26,7 @@ $(document).ready(function() {
     $('#navigation').addClass('navigation-mobile');
     $( ".menu a").addClass('menu-text-mobile')
     $( ".menu").addClass('ul-mobile')
+    $( "#navigation ul").toggle();
 
   })
   

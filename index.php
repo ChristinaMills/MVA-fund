@@ -28,13 +28,10 @@
         <header>
             <!-- <div id="logo"><a href="/main"></a></div> -->
                 <div id="nav-container">
-                    <!-- <div id="ham"><a id="ham-link" href="#" src="./public/images/man1.jpg"></a></div> -->
                         <nav id="navigation" class="navbar"> 
-                            <!-- <div id="span-cont"> -->
                             <span class="icon-menu" ></span>
                                 <ul class="menu"> 
                                     <li id="nav-logo"><img id="logo-img" src="public/images/burg-logo-blur.png"></li>
-                                    <!-- <li id="nav-logo2"><img src="public/images/beveled.png"></li> -->
 
                                     <li class="tab" data-content="about"><a href="#about">ABOUT</a></li>
                                     <li class="tab" data-content="principles"><a href="#principles">PRINCIPLES</a></li>
@@ -42,7 +39,6 @@
                                     <li class="tab" data-content="contact"><a href="#contact">CONTACT</a></li>
                                     <li class="tab" data-content="info"><a href="#info">INFO</a></li>
                                 </ul>
-                            <!-- </div> -->
                         </nav>
                 </div>
         </header>
