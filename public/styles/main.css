@@ -269,10 +269,7 @@ textarea {
     line-height: 1.5em;
     color: black
   }
-  
-  /* #navigation:hover ul li {
-    color: blue;
-  } */
+
 
   #navigation:hover, #navigation:active {
     background-color: rgba(255,255,255, 0.7);
@@ -280,9 +277,20 @@ textarea {
 }
 
 .navigation-mobile {
-
+  background-color: rgba(255,255,255, 0.7)
 }
 
+/* .menu a  */
+
+.menu-text-mobile {
+  line-height: 1.5em;
+  color: black
+}
+
+.ul-mobile {
+  display: block;
+  margin-top: 2.5em;
+}
 /* iphone 5s */
 
 /* TODO: stack photos */

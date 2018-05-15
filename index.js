@@ -17,3 +17,16 @@ $(document).scroll(function() {
     console.log("y more than 500, running")
   }
 });
+
+console.log('before icon function')
+
+// $('.navbar').click(function() {
+//   console.log('inside icon fucntion');
+//   $('#navigation').addClass('navigation-mobile');
+// })
+
+function mobileCSS() {
+  console.log('INSIDE icon function')
+
+  document.getElementById('navigation').setAttribute("class", "navigation-mobile")
+}
