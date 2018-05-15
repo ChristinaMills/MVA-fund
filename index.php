@@ -4,7 +4,7 @@
          <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
 
         <meta charset="utf-8">
-        <title>MVA fund</title>
+        <title>MVA Inc.</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="public/styles/reset.css">
         <link rel="stylesheet" href="public/styles/main.css">

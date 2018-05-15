@@ -63,17 +63,14 @@ li a:hover {
 #section-title {
   font-size: 2.6em;
   font-family: 'Lora', serif;
-  /* font-weight: normal; */
   text-align: center;
-  /* color: #DD533B; */
   color: rgb(69, 21, 42)
 }
-/* #370B1E */
+
 .content-section {
   margin-bottom: 6em;
 }
 
-/* select only p elements in content sections */
 .content-section > p {
   font-size: 1em;
   font-family: 'Lora', serif;
@@ -273,6 +270,10 @@ textarea {
     color: black
   }
   
+  #navigation:hover ul li {
+    color: blue;
+  }
+
   #navigation:hover {
     background-color: rgba(255,255,255, 0.7);
   }
