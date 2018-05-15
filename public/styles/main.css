@@ -254,6 +254,14 @@ textarea {
     width: 50%;
   }
 
+  #navigation ul {
+    display: none;
+  }
+
+  #navigation:hover ul {
+    display: block;
+  }
+
 }
 
 
@@ -269,6 +277,16 @@ textarea {
     width: 80%;
   }
 
-}
+  #navigation ul {
+    display: none;
+  }
 
+  #navigation:hover ul {
+    display: block;
+  }
+
+  .menu li:first-child {
+    display: none;
+  }
+}
 
