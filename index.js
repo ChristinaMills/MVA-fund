@@ -27,13 +27,8 @@ $(document).ready(function() {
     $( ".menu a").addClass('menu-text-mobile')
     $( ".menu").addClass('ul-mobile')
     $( "#navigation ul").toggle();
-
   })
-  
 });
 
-// function mobileCSS() {
-//   console.log('INSIDE icon function')
-//   document.getElementById('navigation').setAttribute("class", "navigation-mobile")
-// }
+
 

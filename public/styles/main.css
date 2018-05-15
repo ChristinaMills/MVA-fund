@@ -144,13 +144,16 @@ li a:hover {
   opacity: 0.9;
 }
 
-.text {
+.bio-text {
   background-color: rgb(48, 49, 50);
   color: white;
   font-size: 16px;
   padding: 16px 32px;
 }
 
+.bio-text-mobile {
+  display: none;
+}
 /* FORM */
 
 #form-container {
@@ -234,10 +237,25 @@ textarea {
 }
 
 @media only screen and (max-width: 750px) {
+  #section-title {
+    font-size: 2em;
+  }
+  
   .photo-container {
     margin: 0em;
     padding: 0.2em;
   }
+
+  .bio-text-mobile {
+    display: block;
+    text-align: center;
+    width: 90%;
+    font-size: .8em;
+    margin-top: .5em;
+    margin-left: .5em;
+    color: rgb(23, 22, 22)
+  }
+
 
   #main-content {
     margin: 5em 0em 0em 0em;
@@ -291,13 +309,18 @@ textarea {
   display: block;
   margin-top: 2.5em;
 }
-/* iphone 5s */
 
+
+/* iphone 5s */
 /* TODO: stack photos */
 @media only screen and (max-width: 400px) {
 
   #form-container {
     width: 80%;
+  }
+
+  .middle {
+    display: none;
   }
 
 }
