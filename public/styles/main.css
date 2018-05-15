@@ -255,7 +255,7 @@ textarea {
     display: none;
   }
 
-  #navigation:hover, #navigation:active ul {
+  #navigation:hover ul, #navigation:active ul {
     display: block;
     margin-top: 2.5em;
     /* background-color: rgba(255,255,255, 0.7); */
@@ -279,6 +279,9 @@ textarea {
   }
 }
 
+.navigation-mobile {
+
+}
 
 /* iphone 5s */
 
