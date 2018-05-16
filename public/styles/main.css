@@ -11,6 +11,9 @@
   /* transition: height .2s; */
 }
 
+#mobile-nav-logo {
+    display: none;
+}
 
 
 .navbar.hide {
@@ -267,15 +270,28 @@ textarea {
 
   .principles-image {
     width: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
   }
 
+  #mobile-nav-logo {
+    display: inline block;
+    margin-right: 10px;
+    width: 4em;
+  }
+  #logo-cont {
+    display: inline-block;
+    width: 4em;
+  }
   #navigation ul {
     display: none;
   }
 
+
   #navigation:hover ul, #navigation:active ul {
     display: block;
-    margin-top: 2.5em;
+    margin-top: 1em;
     /* background-color: rgba(255,255,255, 0.7); */
   }
 
@@ -307,7 +323,7 @@ textarea {
 
 .ul-mobile {
   display: block;
-  margin-top: 2.5em;
+  margin-top: 2em;
 }
 
 
