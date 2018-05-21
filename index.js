@@ -31,16 +31,6 @@ $(document).ready(function() {
   })
 });
 
-$(document).ready(function() {
-  $( ".navbar" ).click(function() {
-    console.log('inside icon fucntion');
-    $('.navbar').addClass('navigation-mobile');
-    $( ".menu a").addClass('menu-text-mobile')
-    $( ".menu").addClass('ul-mobile')
-    $('#mobile-nav-logo').css('display', 'inline-block');
-    $( ".navbar ul").toggle();
-  })
-});
 
 
 
