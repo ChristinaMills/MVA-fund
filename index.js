@@ -20,27 +20,32 @@ $(document).scroll(function() {
 
 console.log('before icon function')
 
-$(document).ready(function() {
-  $( "#navigation" ).click(function() {
-    console.log('inside icon fucntion');
-    $('#navigation').addClass('navigation-mobile');
-    $( ".menu a").addClass('menu-text-mobile')
-    $( ".menu").addClass('ul-mobile')
-    $('#mobile-nav-logo').css('display', 'inline-block');
-    $( "#navigation ul").toggle();
-  })
-});
+// $(document).ready(function() {
+//   $( "#navigation" ).click(function() {
+//     console.log('inside icon fucntion');
+//     $('#navigation').addClass('navigation-mobile');
+//     $( ".menu a").addClass('menu-text-mobile')
+//     $( ".menu").addClass('ul-mobile')
+//     $('#mobile-nav-logo').css('display', 'inline-block');
+//     $( "#navigation ul").toggle();
+//   })
+// });
 
 $(document).ready(function() {
   $( ".navbar" ).click(function() {
-    console.log('inside icon fucntion');
-    $('.navbar').addClass('navigation-mobile');
-    $( ".menu a").addClass('menu-text-mobile')
-    $( ".menu").addClass('ul-mobile')
-    $('#mobile-nav-logo').css('display', 'inline-block');
-    $( ".navbar ul").toggle();
+    console.log('inside icon click fucntion');
+    // $('.navbar').addClass('navigation-mobile');
+    // $( ".menu a").addClass('menu-text-mobile')
+    // $( ".menu").addClass('ul-mobile')
+    // $('#mobile-nav-logo').css('display', 'inline-block');
+    
+    // $( ".navbar ul").toggle();
+    console.log("after toggle fired");
   })
 });
 
 
 
+// ("class-only-applied-once screen is smaller").click(function() {
+//   toggle()
+// })
