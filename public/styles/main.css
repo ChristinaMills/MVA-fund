@@ -51,7 +51,7 @@ li a:hover {
 
 
 @media only screen and (max-width: 750px) {
-  /* #section-title {
+  #section-title {
     font-size: 2em;
   }
   
@@ -94,7 +94,7 @@ li a:hover {
   #logo-cont {
     display: inline-block;
     width: 4em;
-  } */
+  }
 
   .tab {
     display: none;
@@ -113,10 +113,6 @@ li a:hover {
     color: black;
   }
 
-  /* #navigation:hover, #navigation:active {
-    background-color: rgba(255,255,255, 0.7);
-  } */
-  /* doesn't work */
 
 }
 
