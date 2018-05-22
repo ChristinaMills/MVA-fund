@@ -45,13 +45,19 @@ li a:hover {
 }
 
 #section-title {
-  font-size: 4vw;
+  font-size: 5vw;
   font-family: 'Lora', serif;
   /* font-weight: normal; */
   text-align: center;
   /* color: #DD533B; */
   color: rgb(69, 21, 42)
 
+}
+
+#main-section {
+  margin-top: 5em;
+  margin-right: 7em;
+  margin-left: 7em;
 }
 
 #brochure-cont {
@@ -82,5 +88,17 @@ li a:hover {
 
   .menu a {
     color: black;
+  }
+
+  #main-section {
+    margin-top: 0em;
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  #section-title {
+    font-size: 2.1em;
   }
 }
