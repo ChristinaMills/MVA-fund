@@ -106,10 +106,12 @@ li a:hover {
   }
 
   .nav-background {
-  display: none;
   background-color: rgba(255,255,255, 0.7)
   }
-  /* don't i want th ecolor on click only? */
+
+  .menu a {
+    color: black;
+  }
 
   /* #navigation:hover, #navigation:active {
     background-color: rgba(255,255,255, 0.7);

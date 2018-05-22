@@ -38,12 +38,8 @@ $(document).ready(function() {
     console.log('inside icon click fucntion');
     $(".menu .tab").toggle();
     console.log("after toggle fired");
-    // $('#navigation').addClass('nav-background');
-    // $('#navigation').toggleClass('nav-backgoround');
-    // if ( $('#navigation').css('display') == 'none')
-    // {
-       //do something
-    // }
+    $('#navigation').toggleClass('nav-background');
+    $(".menu a").css('color', 'black');
   })
 });
 
