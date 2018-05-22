@@ -22,15 +22,20 @@ console.log('before icon function')
 
 $(document).ready(function() {
   $( "#navigation" ).click(function() {
-    console.log('inside icon fucntion');
-    $('#navigation').addClass('navigation-mobile');
-    $( ".menu a").addClass('menu-text-mobile')
-    $( ".menu").addClass('ul-mobile')
-    $('#mobile-nav-logo').css('display', 'inline-block');
+    console.log('inside icon function');
+
     $( "#navigation ul").toggle();
+    $('#navigation').addClass('navigation-mobile');
+    $( ".menu").addClass('ul-mobile')
+    $( ".menu a").addClass('menu-text-mobile')
+    $('#mobile-nav-logo').css('display', 'inline-block');
   })
 });
 
-
-
+// if ( style === regular ) {
+//   addclass mobile;
+// }
+// else {
+//   addClass regular
+// }
 
