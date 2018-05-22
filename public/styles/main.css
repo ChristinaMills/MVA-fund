@@ -283,24 +283,32 @@ textarea {
     margin-right: 10px;
     width: 4em;
   }
-  #logo-cont {
-    display: inline-block;
-    width: 4em;
-  }
-  #navigation ul {
+
+  .tab {
     display: none;
   }
 
 
-  #navigation:hover ul, #navigation:active ul {
+  .menu {
+    flex-direction: column;
+  }
+
+  .nav-background {
+  background-color: rgba(255,255,255, 0.7)
+  }
+
+  .menu a {
+    color: black;
+  }
+
+  /* #navigation:hover ul, #navigation:active ul {
     display: block;
     margin-top: 1em;
-    /* background-color: rgba(255,255,255, 0.7); */
-  }
+  } */
 
-  .menu li:first-child {
+  /* .menu li:first-child {
     display: none;
-  }
+  } */
 
   .menu a {
     line-height: 1.5em;
@@ -308,9 +316,6 @@ textarea {
   }
 
 
-  #navigation:hover, #navigation:active {
-    background-color: rgba(255,255,255, 0.7);
-  }
 }
 
 /* END OF MEDIA QUERY */

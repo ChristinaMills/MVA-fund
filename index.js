@@ -21,21 +21,13 @@ $(document).scroll(function() {
 console.log('before icon function')
 
 $(document).ready(function() {
-  $( "#navigation" ).click(function() {
+  $( ".icon-menu" ).click(function() {
     console.log('inside icon function');
-
-    $( "#navigation ul").toggle();
-    $('#navigation').addClass('navigation-mobile');
-    $( ".menu").addClass('ul-mobile')
-    $( ".menu a").addClass('menu-text-mobile')
-    $('#mobile-nav-logo').css('display', 'inline-block');
+  $(".menu .tab").toggle();
+  console.log("after toggle fired");
+  $('#navigation').toggleClass('nav-background');
+  $(".menu a").css('color', 'black');
   })
 });
 
-// if ( style === regular ) {
-//   addclass mobile;
-// }
-// else {
-//   addClass regular
-// }
 
