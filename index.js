@@ -32,15 +32,18 @@ console.log('before icon function')
 // });
 
 $(document).ready(function() {
-  $( ".navbar" ).click(function() {
+
+
+  $( ".icon-menu" ).click(function() {
     console.log('inside icon click fucntion');
-    // $('.navbar').addClass('navigation-mobile');
-    // $( ".menu a").addClass('menu-text-mobile')
-    // $( ".menu").addClass('ul-mobile')
-    // $('#mobile-nav-logo').css('display', 'inline-block');
-    
-    // $( ".navbar ul").toggle();
+    $(".menu .tab").toggle();
     console.log("after toggle fired");
+    // $('#navigation').addClass('nav-background');
+    // $('#navigation').toggleClass('nav-backgoround');
+    // if ( $('#navigation').css('display') == 'none')
+    // {
+       //do something
+    // }
   })
 });
 

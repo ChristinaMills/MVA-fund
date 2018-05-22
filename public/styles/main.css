@@ -95,33 +95,19 @@ li a:hover {
     display: inline-block;
     width: 4em;
   } */
-/*   
-  #navigation ul {
+
+  .tab {
     display: none;
   }
 
-
-  #navigation:hover ul, #navigation:active ul {
-    display: block;
-    margin-top: 1em;
-  } */
-
-  /* .menu li:first-child {
-    display: none;
-  }
-
-  .menu a {
-    line-height: 1.5em;
-    color: black !important
-  } */
 
   .menu {
     flex-direction: column;
   }
 
-  .navigation-mobile {
+  .nav-background {
+  display: none;
   background-color: rgba(255,255,255, 0.7)
-  
   }
   /* don't i want th ecolor on click only? */
 
