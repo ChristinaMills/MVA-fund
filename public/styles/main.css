@@ -7,7 +7,8 @@
 }
 
 #nav-logo > img {
-  height: 2em;
+  margin: .3em;
+  height: 3.5em;
   /* transition: height .2s; */
 }
 
@@ -301,20 +302,14 @@ textarea {
     color: black;
   }
 
-  /* #navigation:hover ul, #navigation:active ul {
-    display: block;
-    margin-top: 1em;
-  } */
-
-  /* .menu li:first-child {
-    display: none;
-  } */
-
   .menu a {
     line-height: 1.5em;
     color: black !important
   }
 
+  #nav-logo > img {
+    height: 2em !important;
+  }
 
 }
 
