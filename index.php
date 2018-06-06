@@ -64,7 +64,7 @@
                     </div>
                     
                     <!-- change to use ::after pseudo selector? -->
-                    <p>"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+                    <p>Mills Value Adviser, Inc. is a family run business with a focus making investments that are superior to the market over the long run.  When we invest for our clients, we do so with our own money too because we only do for others what we are confident enough to it for ourselves.</p>
                     
                 
             </section>
@@ -73,10 +73,12 @@
                     <h1>Investment Principles </h1>
                     <span> — </span>
                 </div>
-                    
-                    <div>
-                        <a class="principles-container" href="principles.html"><img class="principles-image" src="public/images/strat-img.jpeg"></a>
-                    </div>
+                <p>We believe that the stock market is more a market of people than a market of stocks.   Through the meticulous study of investors in business cycles of the past, we seek to leverage the predictability of human behavior for the benefit of our clients no matter what the market environment.</p>   
+
+                <div>
+                    <a class="principles-container" href="principles.html"><img class="principles-image grow"
+                        src="public/images/strat-img.jpeg"></a>
+                </div>
             </section>
 
             <section id="people" class="content-section">
@@ -89,18 +91,27 @@
                     <div class="photo-container">
                         <img src="public/images/man1.jpg" alt="man 1" class="headshots">
                         <div class="middle">
-                            <div class="bio-text">This person started out doing this, did that and is fantastic because of the other thing.</div>
+                            <div class="bio-text">
+                                    <p class="bio-name">Cam Mills</p> 
+                                    Mr. Mills has served as portfolio manager since 2007.  Mills joined Mills Value Adviser, Inc. in 2004 as a research analyst focusing on algorithmic pattern analysis and portfolio construction.  In addition to his training in equity research, Cam has also studied music composition.
+                            </div>
                         </div>
-                        <div class="bio-text-mobile">This person started out doing this, did that and is fantastic because of the other thing.</div>
+                        <div class="bio-text-mobile">
+                           <p class="bio-name">Cam Mills</p> 
+                            Mr. Mills has served as portfolio manager since 2007.  Mills joined Mills Value Adviser, Inc. in 2004 as a research analyst focusing on algorithmic pattern analysis and portfolio construction.  In addition to his training in equity research, Cam has also studied music composition.</div>
 
                     </div>
 
                     <div class="photo-container">
                         <img src="public/images/man2.jpg" alt="man 2" class="headshots">
                         <div class="middle">
-                            <div class="bio-text">This person started out doing this, did that and is fantastic because of the other thing.</div>
+                            <div class="bio-text">
+                                <p class="bio-name">Charles Mills<p>
+                                Mr. Mills co-founded Mills Value Adviser, Inc. in 1987.  Mr. Mills began his career in 1974 as a stock broker and would eventually rise to serve as Chairman of Anderson and Strudwick, a regional broker-dealer based out of Richmond, from 1987 to 2000.  Today, Mr. Mills has over 40 years of investment experience and overseas a host of real estate and private placement offerings.</div>
                         </div>
-                        <div class="bio-text-mobile">This person started out doing this, did that and is fantastic because of the other thing.</div>
+                        <div class="bio-text-mobile">
+                                <p class="bio-name">Cam Mills</p> 
+                            Mr. Mills co-founded Mills Value Adviser, Inc. in 1987.  Mr. Mills began his career in 1974 as a stock broker and would eventually rise to serve as Chairman of Anderson and Strudwick, a regional broker-dealer based out of Richmond, from 1987 to 2000.  Today, Mr. Mills has over 40 years of investment experience and overseas a host of real estate and private placement offerings.</div>
                     </div>
 
                 </div>
